@@ -4,6 +4,7 @@ import WebcamCapture from './components/WebcamCapture';
 import Dashboard from './components/Dashboard';
 
 import Exam from './components/Exam';
+import { AuroraBackground } from './components/ui/aurora-background';
 
 function App() {
   return (
@@ -19,11 +20,15 @@ function App() {
         </nav>
       </header>
 
-      <main style={{ paddingTop: '80px', minHeight: '100vh', boxSizing: 'border-box' }}>
-        <Routes>
-          <Route path="/" element={<Exam />} />
-          <Route path="/teacher" element={<Dashboard />} />
-        </Routes>
+      <main>
+        <AuroraBackground>
+          <div style={{ paddingTop: '80px', width: '100%', minHeight: '100vh', boxSizing: 'border-box', position: 'absolute', top: 0, left: 0, zIndex: 10 }}>
+            <Routes>
+              <Route path="/" element={<Exam />} />
+              <Route path="/teacher" element={<Dashboard />} />
+            </Routes>
+          </div>
+        </AuroraBackground>
       </main>
     </Router>
   );
