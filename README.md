@@ -8,6 +8,7 @@ A React-based proctoring application that uses webcam analysis to detect student
 - **Confusion Detection**: Uses AWS Rekognition to analyze facial expressions.
 - **Teacher Dashboard**: Real-time alerts for anomalies (multiple faces) and confusion hot-spots by concept.
 - **Dark Glassmorphism UI**: Premium sci-fi aesthetic.
+- **Cost-Optimized**: Built entirely within the AWS Free Tier, utilizing "On-Demand" scaling to ensure zero idle costs.
 
 > **Note**: This project utilizes a **Manual Snapping** feature for capturing exam snapshots. Automatic snapping is disabled to optimize for free-tier cloud service usage.
 
