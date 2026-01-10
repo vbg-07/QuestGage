@@ -1,4 +1,4 @@
-# ProctorAI - Student Exam Proctoring System
+# QuestGage - Student Exam Proctoring System
 
 A React-based proctoring application that uses webcam analysis to detect student confusion and anomalies during exams. Features a real-time teacher dashboard with analytics.
 
