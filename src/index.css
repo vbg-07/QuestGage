@@ -262,6 +262,20 @@ input:focus {
   animation: pulse 2s infinite;
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
 /* Utilities */
 .text-gradient {
   background: linear-gradient(135deg, var(--primary), var(--accent));
