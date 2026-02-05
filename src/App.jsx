@@ -11,7 +11,7 @@ function App() {
     <Router>
       <header className="glass-header">
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <div style={{ width: '24px', height: '24px', background: 'linear-gradient(135deg, #3b82f6, #8b5cf6)', borderRadius: '6px' }}></div>
+          <div style={{ width: '24px', height: '24px', background: 'linear-gradient(135deg, #3b82f6)', borderRadius: '6px' }}></div>
           <h3 style={{ margin: 0, fontSize: '1.2rem' }}>QuestGage</h3>
         </div>
         <nav>
